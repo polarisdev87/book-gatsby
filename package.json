@@ -1,0 +1,71 @@
+{
+  "name": "books",
+  "description": "List your recommended books",
+  "version": "1.0.0",
+  "author": "Brian Andrews <sbardian@gmail.com>",
+  "scripts": {
+    "cm": "git-cz",
+    "build": "gatsby build",
+    "lint": "eslint .",
+    "develop": "gatsby clean && gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@emotion/core": "10.0.22",
+    "@emotion/styled": "10.0.23",
+    "gatsby": "2.18.12",
+    "gatsby-image": "2.2.36",
+    "gatsby-plugin-breadcrumb": "6.2.3",
+    "gatsby-plugin-emotion": "4.1.18",
+    "gatsby-plugin-manifest": "2.2.33",
+    "gatsby-plugin-offline": "3.0.29",
+    "gatsby-plugin-react-helmet": "3.1.18",
+    "gatsby-plugin-sharp": "2.3.8",
+    "gatsby-source-sanity": "5.0.4",
+    "normalize.css": "8.0.1",
+    "prop-types": "15.7.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-helmet": "5.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbardian/books"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0",
+    "@testing-library/dom": "6.11.0",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.4.0",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "24.9.0",
+    "babel-preset-gatsby": "0.2.26",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "eslint": "6.7.2",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-emotion": "10.0.14",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.17.0",
+    "husky": "3.1.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "24.9.0",
+    "jest-axe": "3.2.0",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1"
+  }
+}
